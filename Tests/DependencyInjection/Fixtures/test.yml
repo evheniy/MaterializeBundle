@@ -1,0 +1,8 @@
+materialize:
+    local_js: 'materialize.min.js'
+    local_fonts_dir: 'fonts/'
+    local_css: 'materialize.min.css'
+    local_cdn: '//cdn.site.com'
+    version: 3.3.0
+    html5: false
+    async: true

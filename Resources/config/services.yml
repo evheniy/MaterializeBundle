@@ -1,0 +1,6 @@
+services:
+    evheniy.twig.materialize_extension:
+        class: Evheniy\MaterializeBundle\Twig\MaterializeExtension
+        arguments: [@service_container]
+        tags:
+            - { name: twig.extension }

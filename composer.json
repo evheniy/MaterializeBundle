@@ -1,0 +1,24 @@
+{
+    "name": "evheniy/materialize-bundle",
+    "description": "The MaterializeBundle adds the ability to add latest Materialize to your application.",
+    "keywords": ["Materialize", "Google", "Adaptive", "Symfony2", "latest"],
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name":     "evheniy",
+            "homepage": "https://github.com/evheniy"
+        }
+    ],
+    "require": {
+        "php":             ">=5.3.0",
+        "symfony/symfony": ">=2.3",
+        "evheniy/jquery-bundle": ">=1.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Evheniy\\MaterializeBundle": ""
+        }
+    },
+    "target-dir" : "Evheniy/MaterializeBundle"
+}

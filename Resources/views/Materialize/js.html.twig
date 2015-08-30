@@ -1,0 +1,12 @@
+{%- javascripts '%materialize.local_js%' output='js/materialize.min.js' -%}
+<script{%- if materialize.html5 == false %} type="text/javascript"{%- endif %} src="https://cdnjs.cloudflare.com/ajax/libs/materialize/{{- materialize.version -}}/js/materialize.min.js"{%- if materialize.async %} async="async"{%- endif -%}></script>
+<script>window.jQuery || document.write('<script{%- if materialize.html5 == false %} type="text/javascript"{%- endif %} src="{{- materialize.local_cdn -}}{{- asset_url -}}"{%- if materialize.async %} async="async"{%- endif -%}>\x3C/script>');</script>
+{%- endjavascripts -%}
+{%- stylesheets '%materialize.local_fonts_dir%Material-Design-Icons.eot' output='fonts/Material-Design-Icons.eot' -%}{%- endstylesheets -%}
+{%- stylesheets '%materialize.local_fonts_dir%Material-Design-Icons.svg' output='fonts/Material-Design-Icons.svg' -%}{%- endstylesheets -%}
+{%- stylesheets '%materialize.local_fonts_dir%Material-Design-Icons.ttf' output='fonts/Material-Design-Icons.ttf' -%}{%- endstylesheets -%}
+{%- stylesheets '%materialize.local_fonts_dir%Material-Design-Icons.woff' output='fonts/Material-Design-Icons.woff' -%}{%- endstylesheets -%}
+{%- stylesheets '%materialize.local_fonts_dir%Material-Design-Icons.woff2' output='fonts/Material-Design-Icons.woff2' -%}{%- endstylesheets -%}
+{%- stylesheets '%materialize.local_css%' '%materialize.local_theme%' output='css/materialize.min.css' -%}
+<script>(function ($) {$(function () {if (!window.Materialize) {$('head').prepend('<link rel="stylesheet" href="{{- materialize.local_cdn -}}{{- asset_url -}}">');}});})(window.jQuery);</script>
+{%- endstylesheets -%}
