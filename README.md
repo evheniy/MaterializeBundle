@@ -1,7 +1,7 @@
 MaterializeBundle
 =================
 
-This bundle provides Materialize in Symfony2 from CDN maxcdn.bootstrapcdn.com
+This bundle provides Materialize in Symfony2 from CDN cdnjs
 
 Installation
 ------------
