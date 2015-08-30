@@ -117,7 +117,7 @@ This bundle is under the [MIT][3] license.
 
 [Документация на русском языке][1]
 
-[TwitterBootstrap][2]
+[Materialize][2]
 
 [1]:  http://makedev.org/articles/symfony/bundles/materialize_bundle.html
 [2]:  http://materializecss.com/
