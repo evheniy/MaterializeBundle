@@ -1,7 +1,11 @@
 MaterializeBundle
 =================
 
+[![knpbundles.com](http://knpbundles.com/evheniy/MaterializeBundle/badge)](http://knpbundles.com/evheniy/MaterializeBundle)
+
 [![Latest Stable Version](https://poser.pugx.org/evheniy/materialize-bundle/v/stable)](https://packagist.org/packages/evheniy/materialize-bundle) [![Total Downloads](https://poser.pugx.org/evheniy/materialize-bundle/downloads)](https://packagist.org/packages/evheniy/materialize-bundle) [![Latest Unstable Version](https://poser.pugx.org/evheniy/materialize-bundle/v/unstable)](https://packagist.org/packages/evheniy/materialize-bundle) [![License](https://poser.pugx.org/evheniy/materialize-bundle/license)](https://packagist.org/packages/evheniy/materialize-bundle)
+
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/evheniy/MaterializeBundle/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/evheniy/MaterializeBundle/?branch=master) [![Build Status](https://scrutinizer-ci.com/g/evheniy/MaterializeBundle/badges/build.png?b=master)](https://scrutinizer-ci.com/g/evheniy/MaterializeBundle/build-status/master)
 
 [![Build Status](https://travis-ci.org/evheniy/MaterializeBundle.svg)](https://travis-ci.org/evheniy/MaterializeBundle)
 
