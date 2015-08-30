@@ -64,7 +64,7 @@ class MaterializeExtensionTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals($this->container->getParameter('materialize.local_css'), '@MaterializeBundle/Resources/public/css/materialize.min.css');
         $this->assertEmpty($materialize['local_cdn']);
         $this->assertEquals($materialize['local_cdn'], '');
-        $this->assertEquals($materialize['version'], '3.3.4');
+        $this->assertEquals($materialize['version'], '0.97.0');
         $this->assertNotEmpty($materialize['html5']);
         $this->assertTrue($materialize['html5']);
         $this->assertEmpty($materialize['async']);

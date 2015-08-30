@@ -1,6 +1,10 @@
 MaterializeBundle
 =================
 
+[![Latest Stable Version](https://poser.pugx.org/evheniy/materialize-bundle/v/stable)](https://packagist.org/packages/evheniy/materialize-bundle) [![Total Downloads](https://poser.pugx.org/evheniy/materialize-bundle/downloads)](https://packagist.org/packages/evheniy/materialize-bundle) [![Latest Unstable Version](https://poser.pugx.org/evheniy/materialize-bundle/v/unstable)](https://packagist.org/packages/evheniy/materialize-bundle) [![License](https://poser.pugx.org/evheniy/materialize-bundle/license)](https://packagist.org/packages/evheniy/materialize-bundle)
+
+[![Build Status](https://travis-ci.org/evheniy/MaterializeBundle.svg)](https://travis-ci.org/evheniy/MaterializeBundle)
+
 This bundle provides Materialize in Symfony2 from CDN cdnjs
 
 Installation
