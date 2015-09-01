@@ -7,6 +7,6 @@
 {%- stylesheets '%materialize.local_fonts_dir%Material-Design-Icons.ttf' output='fonts/Material-Design-Icons.ttf' -%}{%- endstylesheets -%}
 {%- stylesheets '%materialize.local_fonts_dir%Material-Design-Icons.woff' output='fonts/Material-Design-Icons.woff' -%}{%- endstylesheets -%}
 {%- stylesheets '%materialize.local_fonts_dir%Material-Design-Icons.woff2' output='fonts/Material-Design-Icons.woff2' -%}{%- endstylesheets -%}
-{%- stylesheets '%materialize.local_css%' '%materialize.local_theme%' output='css/materialize.min.css' -%}
+{%- stylesheets '%materialize.local_css%' output='css/materialize.min.css' -%}
 <script>(function ($) {$(function () {if (!window.Materialize) {$('head').prepend('<link rel="stylesheet" href="{{- materialize.local_cdn -}}{{- asset_url -}}">');}});})(window.jQuery);</script>
 {%- endstylesheets -%}
