@@ -14,6 +14,20 @@ matrix:
 
 sudo: false
 
-install: travis_retry composer install --no-interaction --prefer-source
+env:
+  - SYMFONY_VERSION=2.3.*
+  - SYMFONY_VERSION=2.4.*
+  - SYMFONY_VERSION=2.5.*
+  - SYMFONY_VERSION=2.6.*
+  - SYMFONY_VERSION=2.7.*
+  - SYMFONY_VERSION=3.0.*
+
+before_script:
+  - if [[ "$php" < 5.5 ]] && [[ "$SYMFONY_VERSION" = "3.0.*" ]]; then export SYMFONY_VERSION="2.7.*"; fi;
+  - composer require symfony/symfony:${SYMFONY_VERSION} --no-update
+  - composer update --dev
 
 script: phpunit --coverage-text
+
+after_script:
+  - php vendor/bin/coveralls -v
