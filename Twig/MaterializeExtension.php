@@ -9,7 +9,7 @@ use Symfony\Component\DependencyInjection\ContainerInterface;
  *
  * @package Evheniy\MaterializeBundle\Twig
  */
-class MaterializeExtension extends \Twig_Extension
+class MaterializeExtension extends \Twig_Extension implements \Twig_Extension_GlobalsInterface
 {
     /**
      * @var \Symfony\Component\DependencyInjection\ContainerInterface
